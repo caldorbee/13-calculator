@@ -18,11 +18,11 @@ function numberValue(number) {
 }
 
 const calculate = {
-  '/': (firstNumber, secoundNumber) => firstNumber / secoundNumber,
-  '*': (firstNumber, secoundNumber) => firstNumber * secoundNumber,
-  '+': (firstNumber, secoundNumber) => firstNumber + secoundNumber,
-  '-': (firstNumber, secoundNumber) => firstNumber - secoundNumber,
-  '=': (firstNumber, secoundNumber) => secoundNumber
+  '/': (firstNumber, secondNumber) => firstNumber / secondNumber,
+  '*': (firstNumber, secondNumber) => firstNumber * secondNumber,
+  '+': (firstNumber, secondNumber) => firstNumber + secondNumber,
+  '-': (firstNumber, secondNumber) => firstNumber - secondNumber,
+  '=': (firstNumber, secondNumber) => secondNumber
 };
 
 function useOperator(operator) {
