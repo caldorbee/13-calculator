@@ -51,10 +51,3 @@ inputBtns.forEach((inputBtn) => {
     inputBtn.addEventListener('click', () => numberValue(0))
   }
 })
-
-function clearAll() {
-  firstValue = 0
-  operatorValue = ''
-  nextValue = false
-  calculatorDisplay.textContent = '0'
-}
